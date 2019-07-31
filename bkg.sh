@@ -6,4 +6,4 @@ if [ ! -f /tmp/kid.jpg ]; then
 fi
 
 osascript -e 'tell application "System Events" -- activate' -e 'end tell'
-osascript -e 'tell application "System Events" to set picture of every desktop to "/tmp/kid.jpg"'
+osascript -e 'tell application "System Events" to set picture of every desktop to ("/tmp/kid.jpg" as POSIX file as alias)'
