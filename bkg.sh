@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -f /tmp/kid.jpg ]; then
-  kid_url=$(curl -L https://gist.githubusercontent.com/SkyaTura/1d41e9db743811dad0749a72ce2978c2/raw/file.txt)
+  kid_url=$(curl -L https://github.com/SkyaTura/troll-on-mac-os/raw/master/file.txt)
   curl $kid_url -o /tmp/kid.jpg
 fi
 
